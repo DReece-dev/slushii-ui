@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Layouts - Application UI</title>
+    <link rel="stylesheet" href="/css/slushii.css">
+</head>
+
+<body class="body-color">
+    <header>
+        <div class="bar">
+            <div class="container px-5">
+                <nav class="nav">
+                    <div class="img-fluid">
+                        <img src="/assets/Slushii-Logo.png" alt="Slushii" width="23px" class="mt-1 mx-1">
+                    </div>
+                    <ul class="nav">
+                        <li><a href="/index.html" class="subtitle is-5 nav-link-other font-normal"
+                                style="margin-top: 2px;">Slushii
+                                UI</a></li>
+                        <span class="small mt-3"> |</span>
+                        <span class="small mt-3 mx-2">by the creator of Slushii CSS</span>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container px-1" style="margin-top: 10em">
+        <nav class="breadcrumb has-custom" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="index.html" class="text-decortation-none">Application UI</a></li>
+                <li><a href="#forms" class="text-decortation-none">Forms</a></li>
+            </ul>
+        </nav>
+        <div style="margin-left: 40px;">
+            <h2 class="subtitle is-3 font-bold">Form Layouts</h2>
+            <p class="small">Simple</p>
+        </div>
+    </div>
+    <div class="container px-5">
+        <section class="box is-grey">
+            <div class="columns">
+                <div class="column half">
+                    <h3 class="title text-color-black">Profile</h3>
+                    <p class="text-grey">This information will be displayed publicly so be careful what you share. </p>
+                </div>
+                <div class="column padding-none">
+                    <div class="card-heading-container-custom">
+                        <div class="m-5">
+                            <div class="flex mt-1">
+                                <form action="..." method="...">
+                                    <div class="form-group">
+                                        <label for="username" class="required">Username</label>
+                                        <input type="text" class="form-control" id="username" placeholder="Username"
+                                            required="required">
+                                        <div class="form-text small">
+                                            Only alphanumeric characters and underscores allowed.
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="password" class="required">Password</label>
+                                        <input type="password" class="form-control" id="password" placeholder="Password"
+                                            required="required">
+                                        <div class="form-text small">
+                                            Must be at least 8 characters long, and contain at least one special
+                                            character.
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="confirm-password" class="required">Confirm password</label>
+                                        <input type="password" class="form-control" id="confirm-password"
+                                            placeholder="Confirm password" required="required">
+                                        <div class="form-text small">
+                                            Must match the above password exactly.
+                                        </div>
+                                    </div>
+                                    <div class="flex align-right">
+                                        <input class="button button-custom-1" type="submit" value="Sign up">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <p class="small mt-5 mb-3">Two Columns cards with separate submit actions</p>
+        <section class="box is-grey mt-5 mb-3">
+            <div class="columns">
+                <div class="column half">
+                    <h3 class="title text-color-black">Profile</h3>
+                    <p class="text-grey">This information will be displayed publicly so be careful what you share. </p>
+                </div>
+                <div class="column padding-none">
+                    <div class="card-heading-container-custom">
+                        <div class="m-5">
+                            <label for="website" class="font-light">Website</label>
+                            <input class="input-field-default" type="text" name="website" id="website"
+                                placeholder="www.example.com">
+                            <label for="about" class="font-light  mt-3">About</label>
+                            <textarea class="input-field-default mb-3" name="about" id="about" cols="30" rows="10"
+                                placeholder="you@example.com"></textarea>
+                            <span class="text-grey small">Brief description for your profile. URLs are
+                                hyperlinked</span>
+                            <br>
+                            <label for="cover-photo" class="font-light mt-3">Cover photo</label>
+                            <div class="dashed-container small">
+                                <div class="flex align-center-middle" style="margin-top: 3em;">
+                                    <svg stroke="currentColor" fill="none" viewBox="0 0 48 48" aria-hidden="true"
+                                        width="50px">
+                                        <path
+                                            d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </div>
+                                <div class="text-center text-grey">
+                                    <label for="file-upload">
+                                        <span class="color-purple">Upload a file</span>
+                                    </label>
+                                    <p>or drag and drop</p>
+                                    <p>PNG,JPG, GIF up to 10MB</p>
+                                </div>
+                            </div>
+                            <div class="flex align-right mt-4">
+                                <input class="button button-custom-2" type="submit" value="Save">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="heading-divider mt-4 mb-3"></div>
+            <div class="columns">
+                <div class="column half">
+                    <h3 class="title text-color-black">Personal Information</h3>
+                    <p class="text-grey">Use a permanent address where you can receive mail. </p>
+                </div>
+                <div class="column padding-none">
+                    <div class="card-heading-container-custom">
+                        <div class="m-5">
+                            <label for="first-name">First Name</label>
+                            <input class="input-field-default mb-3" type="text" name="first-name" id="first-name">
+
+                            <label for="last-name">Last Name</label>
+                            <input class="input-field-default mb-3" type="text" name="last-name" id="last-name">
+
+                            <label for="email">Email address</label>
+                            <input class="input-field-default mb-3" type="email" name="email" id="email">
+
+                            <label for="country-region">Country / Region</label>
+                            <select class="form-select">
+                                <option selected="">United Kingdom</option>
+                                <option value="1">United States</option>
+                                <option value="2">Canada</option>
+                                <option value="3">France</option>
+                            </select>
+
+                            <label for="street" class="mt-3">Street address</label>
+                            <input class="input-field-default mb-3" type="text" name="street-address"
+                                id="street-address">
+
+                            <label for="city">City</label>
+                            <input class="input-field-default mb-3" type="text" name="city" id="city">
+
+                            <label for="state-county">State / County</label>
+                            <input class="input-field-default mb-3" type="text" name="state-county" id="state-county">
+
+                            <label for="post-code">Post / Zip Code</label>
+                            <input class="input-field-default mb-3" type="text" name="post-code" id="post-code">
+
+                            <div class="flex align-right mt-4">
+                                <input class="button button-custom-2" type="submit" value="Save">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="heading-divider mt-4 mb-3"></div>
+            <div class="columns">
+                <div class="column half">
+                    <h3 class="title text-color-black">Notifications</h3>
+                    <p class="text-grey">Decide which communications you'd like to receive and how.</p>
+                </div>
+                <div class="column padding-none">
+                    <div class="card-heading-container-custom">
+                        <div class="m-5">
+                            <fieldset>
+                                <legend class="font-medium">By Email</legend>
+                                <div class="mt-4">
+
+                                    <div class="flex align-top">
+                                        <div class="flex align-middle">
+                                            <input class="layout-checkbox" type="checkbox" id="comments"
+                                                name="comments">
+                                        </div>
+                                        <div class="ms-3">
+                                            <label class="font-medium" for="comments">Comments</label>
+                                            <p class="text-grey">Get notified when someones posts a comment on a
+                                                posting.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex align-top mt-3">
+                                        <div class="flex align-middle">
+                                            <input class="layout-checkbox" type="checkbox" id="candidates"
+                                                name="candidates">
+                                        </div>
+                                        <div class="ms-3">
+                                            <label class="font-medium" for="comments">Candidates</label>
+                                            <p class="text-grey">Get notified when a candidate applies for a job.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex align-top mt-3">
+                                        <div class="flex align-middle">
+                                            <input class="layout-checkbox" type="checkbox" id="Offers" name="Offers">
+                                        </div>
+                                        <div class="ms-3">
+                                            <label class="font-medium" for="comments">Offers</label>
+                                            <p class="text-grey">Get notified when a candidate accepts or rejects an
+                                                offer.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset class="mt-3">
+                                <legend class="font-medium">Push Notifications</legend>
+                                <span class="text-grey">These are delivered via SMS to your mobile phone.</span>
+                                <div class="mt-4">
+                                    <div class="flex align-middle">
+                                        <input id="push-everything" name="push-notifications" type="radio">
+                                        <label for="push-everything" class="ms-3 mt-2 font-medium">
+                                            Everything
+                                        </label>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <input id="push-email" name="push-notifications" type="radio">
+                                        <label for="push-email" class="ms-3 font-medium ">
+                                            Same as email
+                                        </label>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <input id="push-nothing" name="push-notifications" type="radio">
+                                        <label for="push-nothing" class="ms-3 font-medium">
+                                            No push notifications
+                                        </label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <div class="flex align-right">
+                                <input class="button button-custom-2" type="submit" value="Save">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

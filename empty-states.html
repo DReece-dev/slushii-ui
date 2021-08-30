@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empty States - Application UI</title>
+    <link rel="stylesheet" href="/css/slushii.css">
+</head>
+
+<body class="body-color">
+    <header>
+        <div class="bar">
+            <div class="container px-5">
+                <nav class="nav">
+                    <div class="img-fluid">
+                        <img src="/assets/Slushii-Logo.png" alt="Slushii" width="23px" class="mt-1 mx-1">
+                    </div>
+                    <ul class="nav">
+                        <li><a href="/index.html" class="subtitle is-5 nav-link-other font-normal"
+                                style="margin-top: 2px;">Slushii
+                                UI</a></li>
+                        <span class="small mt-3"> |</span>
+                        <span class="small mt-3 mx-2">by the creator of Slushii CSS</span>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container px-1" style="margin-top: 10em">
+        <nav class="breadcrumb has-custom" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="index.html" class="text-decortation-none">Application UI</a></li>
+                <li><a href="#feedbacks" class="text-decortation-none">Feebacks</a></li>
+            </ul>
+        </nav>
+        <div style="margin-left: 40px;">
+            <h2 class="subtitle is-3 font-bold">Empty states</h2>
+            <p class="small">Simple</p>
+        </div>
+    </div>
+    <div class="container px-5">
+        <section class="box mt-4 mb-3">
+            <div class="empty">
+                <div class="empty-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="70px">
+                        <title>Mail</title>
+                        <rect x="48" y="96" width="416" height="320" rx="40" ry="40" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="32" d="M112 160l144 112 144-112" />
+                    </svg>
+                </div>
+                <p class="title font-color-black empty-title">You have no new messages</p>
+                <p class="empty-subtitle">Click the button to start a conversation.</p>
+                <div class="empty-action">
+                    <button class="button button-custom">Send a message</button>
+                </div>
+            </div>
+        </section>
+        <p class="small mt-4 mb-3">With dashed border</p>
+        <section class="box mt-4 mb-3">
+            <div class="empty dashed-container white">
+                <div style="margin-top: 10em;">
+                    <div class="empty-icon">
+                        <div class="flex align-center">
+                            <img src="/assets/database-2-alternate.png" alt="database-2-alternate" width="64px">
+                        </div>
+                    </div>
+                    <p class="empty-title">Create a new database</p>
+                </div>
+            </div>
+        </section>
+        <p class="small mt-4 mb-3">With search</p>
+        <section class="box mt-4 mb-3">
+            <div class="empty">
+                <div class="empty-icon flex align-center mb-3">
+                    <img src="/assets/people-man-5.png" alt="people-man-5" width="64px">
+                </div>
+                <p class="empty-title h5">You are not following anyone</p>
+                <p class="empty-subtitle">Start to meet new friends</p>
+                <div class="flex align-middle-center align-center empty-action input-group">
+                    <input class="input-field" type="text">
+                    <button class="button button-custom-2">Search</button>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

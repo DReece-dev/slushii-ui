@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar Layouts - Application UI</title>
+    <link rel="stylesheet" href="/css/slushii.css">
+</head>
+
+<body class="body-color">
+    <header>
+        <div class="bar">
+            <div class="container px-5">
+                <nav class="nav">
+                    <div class="img-fluid">
+                        <img src="/assets/Slushii-Logo.png" alt="Slushii" width="23px" class="mt-1 mx-1">
+                    </div>
+                    <ul class="nav">
+                        <li><a href="/index.html" class="subtitle is-5 nav-link-other font-normal"
+                                style="margin-top: 2px;">Slushii UI</a></li>
+                        <span class="small mt-3"> |</span>
+                        <span class="small mt-3 mx-2">by the creator of Slushii CSS</span>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container px-1" style="margin-top: 10em">
+        <nav class="breadcrumb has-custom" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="index.html" class="text-decortation-none">Application UI</a></li>
+                <li><a href="#application-shells" class="text-decortation-none">Application Shells</a></li>
+            </ul>
+        </nav>
+        <div style="margin-left: 40px;">
+            <h2 class="subtitle is-3 font-bold">Sidebar Layouts</h2>
+            <p class="small">Simple sidebar with light header</p>
+        </div>
+    </div>
+    <div class="container px-5">
+        <section class="box mt-4 mb-3 box-is-large">
+            <div class="side-bar-container">
+                <aside class="side-bar-container__sidebar">
+                    <nav class="nav">
+                        <ul class="nav flex-col">
+                            <li><button class="vertical-button">Dashboard</button></li>
+                            <li><button class="vertical-button">Team</button></li>
+                            <li><button class="vertical-button">Projects</button></li>
+                            <li><button class="vertical-button">Calendar</button></li>
+                            <li><button class="vertical-button">Documents</button></li>
+                            <li><button class="vertical-button">Reports</button></li>
+                        </ul>
+                    </nav>
+                </aside>
+                <main class="side-bar-container__main">
+                    <div class="p-3">
+                        <form action="/action_page.php">
+                            <input type="text" placeholder="Search.." name="search" class="search">
+                        </form>
+                    </div>
+                    <div class="dashed-container m-3" style="margin-left: 10px;">
+                        <div class="flex flex-col align-middle" style="margin-top: 15em;">
+                            <div class="upload-button-container">
+                                <input type="file" class="upload-button-container__input" />
+                                <div class="upload-button-container__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="40px">
+                                        <path
+                                            d="M 6 3 L 6 29 L 26 29 L 26 9.5996094 L 25.699219 9.3007812 L 19.699219 3.3007812 L 19.400391 3 L 6 3 z M 8 5 L 18 5 L 18 11 L 24 11 L 24 27 L 8 27 L 8 5 z M 20 6.4003906 L 22.599609 9 L 20 9 L 20 6.4003906 z M 16 13 L 12 17 L 15 17 L 15 22 L 17 22 L 17 17 L 20 17 L 16 13 z M 12 23 L 12 25 L 20 25 L 20 23 L 12 23 z" />
+                                    </svg>
+                                </div>
+                                <span><small>Upload or drag you files here</small></span>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </section>
+        <p class="small mt-4 mb-3">Dark sidebar with light header</p>
+        <section class="box mt-4 mb-3 box-is-large">
+            <div class="side-bar-container">
+                <aside class="side-bar-container__sidebar dark-mode">
+                    <nav class="nav">
+                        <ul class="nav flex-col">
+                            <li><button class="vertical-button dark-mode">Dashboard</button></li>
+                            <li><button class="vertical-button dark-mode">Team</button></li>
+                            <li><button class="vertical-button dark-mode">Projects</button></li>
+                            <li><button class="vertical-button dark-mode">Calendar</button></li>
+                            <li><button class="vertical-button dark-mode">Documents</button></li>
+                            <li><button class="vertical-button dark-mode">Reports</button></li>
+                        </ul>
+                    </nav>
+                </aside>
+                <main class="side-bar-container__main">
+                    <div class="p-3">
+                        <form action="/action_page.php">
+                            <input type="text" placeholder="Search.." name="search" class="search">
+                        </form>
+                    </div>
+                    <div class="dashed-container m-3" style="margin-left: 10px;">
+                        <div class="flex flex-col align-middle" style="margin-top: 15em;">
+                            <div class="upload-button-container">
+                                <input type="file" class="upload-button-container__input" />
+                                <div class="upload-button-container__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="40px">
+                                        <path
+                                            d="M 6 3 L 6 29 L 26 29 L 26 9.5996094 L 25.699219 9.3007812 L 19.699219 3.3007812 L 19.400391 3 L 6 3 z M 8 5 L 18 5 L 18 11 L 24 11 L 24 27 L 8 27 L 8 5 z M 20 6.4003906 L 22.599609 9 L 20 9 L 20 6.4003906 z M 16 13 L 12 17 L 15 17 L 15 22 L 17 22 L 17 17 L 20 17 L 16 13 z M 12 23 L 12 25 L 20 25 L 20 23 L 12 23 z" />
+                                    </svg>
+                                </div>
+                                <span><small>Upload or drag you files here</small></span>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </section>
+        <p class="small mt-4 mb-3">Dark sidebar with 2 columns</p>
+        <section class="box mt-4 mb-3 box-is-large">
+            <div class="side-bar-container">
+                <aside class="side-bar-container__sidebar dark-mode">
+                    <nav class="nav">
+                        <ul class="nav flex-col">
+                            <li><button class="vertical-button dark-mode">Dashboard</button></li>
+                            <li><button class="vertical-button dark-mode">Team</button></li>
+                            <li><button class="vertical-button dark-mode">Projects</button></li>
+                            <li><button class="vertical-button dark-mode">Calendar</button></li>
+                            <li><button class="vertical-button dark-mode">Documents</button></li>
+                            <li><button class="vertical-button dark-mode">Reports</button></li>
+                        </ul>
+                    </nav>
+                </aside>
+                <main class="side-bar-container__main">
+                    <div class="p-3">
+                        <form action="/action_page.php">
+                            <input type="text" placeholder="Search.." name="search" class="search">
+                        </form>
+                    </div>
+                    <div class="columns">
+                        <div class="column is-8">
+                            <div class="dashed-container m-3" style="margin-left: 10px;">
+                                <div class="flex flex-col align-middle" style="margin-top: 15em;">
+                                    <div class="upload-button-container">
+                                        <input type="file" class="upload-button-container__input" />
+                                        <div class="upload-button-container__icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="40px">
+                                                <path
+                                                    d="M 6 3 L 6 29 L 26 29 L 26 9.5996094 L 25.699219 9.3007812 L 19.699219 3.3007812 L 19.400391 3 L 6 3 z M 8 5 L 18 5 L 18 11 L 24 11 L 24 27 L 8 27 L 8 5 z M 20 6.4003906 L 22.599609 9 L 20 9 L 20 6.4003906 z M 16 13 L 12 17 L 15 17 L 15 22 L 17 22 L 17 17 L 20 17 L 16 13 z M 12 23 L 12 25 L 20 25 L 20 23 L 12 23 z" />
+                                            </svg>
+                                        </div>
+                                        <span><small>Upload or drag you files here</small></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="dashed-container m-3" style="margin-left: 10px;">
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

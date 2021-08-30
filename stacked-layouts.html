@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stacked Layouts - Application UI</title>
+    <link rel="stylesheet" href="/css/slushii.css">
+</head>
+
+<body class="body-color">
+    <header>
+        <div class="bar">
+            <div class="container px-5">
+                <nav class="nav">
+                    <div class="img-fluid">
+                        <img src="/assets/Slushii-Logo.png" alt="Slushii" width="23px" class="mt-1 mx-1">
+                    </div>
+                    <ul class="nav">
+                        <li><a href="/index.html" class="subtitle is-5 nav-link-other font-normal"
+                                style="margin-top: 2px;">Slushii UI</a></li>
+                        <span class="small mt-3"> |</span>
+                        <span class="small mt-3 mx-2">by the creator of Slushii CSS</span>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container px-1" style="margin-top: 10em">
+        <nav class="breadcrumb has-custom" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="index.html" class="text-decortation-none">Application UI</a></li>
+                <li><a href="#application-shells" class="text-decortation-none">Application Shells</a></li>
+            </ul>
+        </nav>
+        <div style="margin-left: 40px;">
+            <h2 class="subtitle is-3 font-bold">Stacked Layouts</h2>
+            <p class="small">Dark nav with white page header</p>
+        </div>
+    </div>
+    <div class="container px-5">
+        <section class="box mt-4 mb-3">
+            <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                        data-target="nav-burger">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div id="nav-burger" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item">
+                            Dashboard
+                        </a>
+
+                        <a class="navbar-item">
+                            Team
+                        </a>
+                        <a class="navbar-item">
+                            Projects
+                        </a>
+                        <a class="navbar-item">
+                            Calendar
+                        </a>
+                        <a class="navbar-item">
+                            Reports
+                        </a>
+                    </div>
+
+                    <div class="navbar-end">
+                        <button class="button button-custom-1 m-2">Login</button>
+                        <button class="button button-custom-2 m-2">Sign up</button>
+                    </div>
+                </div>
+            </nav>
+            <div class="box mt-1">
+                <h1 class="title font-color-black">Dashboard</h1>
+            </div>
+            <div class="dashed-container">
+                <div class="flex flex-col align-middle" style="margin-top: 15em;">
+                    <div class="upload-button-container">
+                        <!-- The real file input -->
+                        <input type="file" class="upload-button-container__input" />
+                        <!-- The upload icon -->
+                        <div class="upload-button-container__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="40px">
+                                <path
+                                    d="M 6 3 L 6 29 L 26 29 L 26 9.5996094 L 25.699219 9.3007812 L 19.699219 3.3007812 L 19.400391 3 L 6 3 z M 8 5 L 18 5 L 18 11 L 24 11 L 24 27 L 8 27 L 8 5 z M 20 6.4003906 L 22.599609 9 L 20 9 L 20 6.4003906 z M 16 13 L 12 17 L 15 17 L 15 22 L 17 22 L 17 17 L 20 17 L 16 13 z M 12 23 L 12 25 L 20 25 L 20 23 L 12 23 z" />
+                            </svg>
+                        </div>
+                        <!-- The label -->
+                        <span><small>Upload or drag you files here</small></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <p class="small mt-4 mb-3">Nav pills with white page header</p>
+        <section class="box mt-4 mb-3">
+            <nav class="nav-pills mb-3">
+                <ul class="nav">
+                    <li><a href="#" class="">Dashboard</a></li>
+                    <li><a href="#" class="">Team</a></li>
+                    <li><a href="#" class="">Projects</a></li>
+                    <li><a href="#" class="">Calendar</a></li>
+                    <li><a href="#" class="">Reports</a></li>
+                </ul>
+            </nav>
+            <div class="m-2">
+                <h1 class="title font-color-black m-1">Dashboard</h1>
+            </div>
+            <div class="dashed-container white" style="margin-left: 10px;">
+                <div class="flex flex-col align-middle" style="margin-top: 15em;">
+                    <div class="upload-button-container">
+                        <!-- The real file input -->
+                        <input type="file" class="upload-button-container__input" />
+                        <!-- The upload icon -->
+                        <div class="upload-button-container__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="40px">
+                                <path
+                                    d="M 6 3 L 6 29 L 26 29 L 26 9.5996094 L 25.699219 9.3007812 L 19.699219 3.3007812 L 19.400391 3 L 6 3 z M 8 5 L 18 5 L 18 11 L 24 11 L 24 27 L 8 27 L 8 5 z M 20 6.4003906 L 22.599609 9 L 20 9 L 20 6.4003906 z M 16 13 L 12 17 L 15 17 L 15 22 L 17 22 L 17 17 L 20 17 L 16 13 z M 12 23 L 12 25 L 20 25 L 20 23 L 12 23 z" />
+                            </svg>
+                        </div>
+                        <!-- The label -->
+                        <span><small>Upload or drag you files here</small></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <p class="small mt-4 mb-3">Nav pills with 2 columns</p>
+        <section class="box mt-4 mb-3">
+            <nav class="nav-pills mb-3">
+                <ul class="nav">
+                    <li><a href="#" class="">Dashboard</a></li>
+                    <li><a href="#" class="">Team</a></li>
+                    <li><a href="#" class="">Projects</a></li>
+                    <li><a href="#" class="">Calendar</a></li>
+                    <li><a href="#" class="">Reports</a></li>
+                    <div class="navbar-end">
+                        <button class="button button-custom-1 m-2">Login</button>
+                        <button class="button button-custom-2 m-2">Sign up</button>
+                    </div>
+                </ul>
+            </nav>
+            <div class="m-2">
+                <h1 class="title font-color-black m-1">Dashboard</h1>
+            </div>
+            <div class="columns">
+                <div class="column is-8">
+                    <div class="dashed-container white" style="margin-left: 10px;">
+                        <div class="flex flex-col align-middle" style="margin-top: 15em;">
+                            <div class="upload-button-container">
+                                <!-- The real file input -->
+                                <input type="file" class="upload-button-container__input" />
+                                <!-- The upload icon -->
+                                <div class="upload-button-container__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="40px">
+                                        <path
+                                            d="M 6 3 L 6 29 L 26 29 L 26 9.5996094 L 25.699219 9.3007812 L 19.699219 3.3007812 L 19.400391 3 L 6 3 z M 8 5 L 18 5 L 18 11 L 24 11 L 24 27 L 8 27 L 8 5 z M 20 6.4003906 L 22.599609 9 L 20 9 L 20 6.4003906 z M 16 13 L 12 17 L 15 17 L 15 22 L 17 22 L 17 17 L 20 17 L 16 13 z M 12 23 L 12 25 L 20 25 L 20 23 L 12 23 z" />
+                                    </svg>
+                                </div>
+                                <!-- The label -->
+                                <span><small>Upload or drag you files here</small></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="dashed-container white" style="margin-left: 10px;">
+                        <div class="flex flex-col align-middle" style="margin-top: 15em;">
+                            <div class="upload-button-container">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="/slushii.js"></script>
+</body>
+
+</html>

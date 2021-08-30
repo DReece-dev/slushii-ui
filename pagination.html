@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination - Application UI</title>
+    <link rel="stylesheet" href="/css/slushii.css">
+</head>
+
+<body class="body-color">
+    <header>
+        <div class="bar">
+            <div class="container px-5">
+                <nav class="nav">
+                    <div class="img-fluid">
+                        <img src="/assets/Slushii-Logo.png" alt="Slushii" width="23px" class="mt-1 mx-1">
+                    </div>
+                    <ul class="nav">
+                        <li><a href="/index.html" class="subtitle is-5 nav-link-other font-normal"
+                                style="margin-top: 2px;">Slushii
+                                UI</a></li>
+                        <span class="small mt-3"> |</span>
+                        <span class="small mt-3 mx-2">by the creator of Slushii CSS</span>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container px-1" style="margin-top: 10em">
+        <nav class="breadcrumb has-custom" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="index.html" class="text-decortation-none">Application UI</a></li>
+                <li><a href="#navigation" class="text-decortation-none">Navigation</a></li>
+            </ul>
+        </nav>
+        <div style="margin-left: 40px;">
+            <h2 class="subtitle is-3 font-bold">Pagination</h2>
+            <p class="small">Simple</p>
+        </div>
+    </div>
+    <div class="container px-5">
+        <section class="box mt-4 mb-3">
+            <div class="flex align-center">
+                <nav>
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a href="#" class="page-link">
+                                <span>Previous</span> <!-- sr-only = only for screen readers -->
+                            </a>
+                        </li>
+                        <li class="page-item"><a href="#" class="page-link">1</a></li>
+                        <li class="page-item ellipsis"></li>
+                        <li class="page-item"><a href="#" class="page-link">45</a></li>
+                        <li class="page-item active" aria-current="page">
+                            <a href="#" class="page-link" tabindex="-1">46</a>
+                        </li>
+                        <li class="page-item"><a href="#" class="page-link">47</a></li>
+                        <li class="page-item ellipsis"></li>
+                        <li class="page-item"><a href="#" class="page-link">86</a></li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">
+                                <span>Next</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <p class="small mt-4 mb-3">Pagination Sizing</p>
+        <section class="mt-4 mb-3">
+            <div class="box">
+                <nav class="flex align-middle align-center">
+                    <ul class="pagination pagination-lg">
+                        <li class="page-item active" aria-current="page">
+                            <span class="page-link">1</span>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </div>
+    <script src="/slushii.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header - Elements</title>
+    <link rel="stylesheet" href="/css/slushii.css">
+</head>
+
+<body class="body-color">
+    <header>
+        <div class="bar">
+            <div class="container px-5">
+                <nav class="nav">
+                    <div class="img-fluid">
+                        <img src="/assets/Slushii-Logo.png" alt="Slushii" width="23px" class="mt-1 mx-1">
+                    </div>
+                    <ul class="nav">
+                        <li><a href="/index.html" class="subtitle is-5 nav-link-other font-normal"
+                                style="margin-top: 2px;">Slushii UI</a></li>
+                        <span class="small mt-3"> |</span>
+                        <span class="small mt-3 mx-2">by the creator of Slushii CSS</span>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container px-1" style="margin-top: 10em">
+        <nav class="breadcrumb has-custom" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="index.html" class="text-decortation-none">Marketing</a></li>
+                <li><a href="#elements" class="text-decortation-none">Elements</a></li>
+            </ul>
+        </nav>
+        <div style="margin-left: 40px;">
+            <h2 class="subtitle is-3 font-bold">Headers</h2>
+            <p class="small">Centered with bottom border</p>
+        </div>
+    </div>
+    <div class="container px-5">
+        <section class="box mt-4 mb-3">
+            <div class="flex">
+                <div class="navbar-start">
+                    <div class="avatar-blank"></div>
+                </div>
+                <div class="align-center">
+                    <div style="margin-left:100px;">
+                        <nav class="nav">
+                            <ul class="nav">
+                                <li><a href="#" class="nav-link font-color-black hero-nav-link">Products</a></li>
+                                <li><a href="#" class="nav-link font-color-black hero-nav-link">Features</a></li>
+                                <li><a href="#" class="nav-link font-color-black hero-nav-link">Marketplace</a></li>
+                                <li><a href="#" class="nav-link font-color-black hero-nav-link">Company</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <a href="#" class="font-color-black text-decortation-none mt-4 m-3">Sign in</a>
+                    <button class="button is-normal hero-button mt-2">Sign Up</button>
+                </div>
+            </div>
+            <div class="bottom-shadow">
+                <hr>
+            </div>
+        </section>
+        <p class="small mt-5 mb-5">Simple with dropdown menu</p>
+        <section class="box mt-4 mb-3">
+            <div class="flex">
+                <div class="navbar-start">
+                    <div class="avatar-blank"></div>
+                </div>
+                <div class="align-center">
+                    <div style="margin-left: 110px;">
+                        <nav class="nav">
+                            <ul class="nav">
+                                <div class="clickable-dropdown">
+                                    <button onclick="clickable()" class="clickable-dropbutton transparent">Products
+                                    </button>
+                                    <div id="clickable-dropdown" class="clickable-dropdown-content is-small">
+                                        <a href="#">Analytics</a>
+                                        <a href="#">Engagement</a>
+                                        <a href="#">Security</a>
+                                        <a href="#">Integrations</a>
+                                        <a href="#">Automations</a>
+                                    </div>
+                                </div>
+                                <li><a href="#" class="nav-link font-color-black hero-nav-link mt-2">Features</a></li>
+                                <li><a href="#" class="nav-link font-color-black hero-nav-link mt-2">Marketplace</a>
+                                </li>
+                                <li><a href="#" class="nav-link font-color-black hero-nav-link mt-2">Company</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="navbar-end mt-2">
+                    <a href="#" class="font-color-black text-decortation-none mt-4 m-3">Sign in</a>
+                    <div class="mt-3">
+                        <button class="button is-normal hero-button ">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <p class="small mt-5 mb-5">Simple flyout menu</p>
+        <section class="box mt-4 mb-3">
+            <div class="flex">
+                <div class="navbar-start">
+                    <div class="avatar-blank"></div>
+                </div>
+                <div class="align-center">
+                    <div style="margin-left: 110px;">
+                        <nav class="nav">
+                            <ul class="nav">
+                                <div class="flyout-dropdown">
+                                    <button onclick="flyout()" class="flyout-dropbutton transparent">Products
+                                    </button>
+                                    <div id="flyout-dropdown" class="flyout-dropdown-content is-large">
+                                        <div class="columns">
+                                            <div class="column">
+                                                <div class="columns hover-grey">
+                                                    <div class="column is-narrow">
+                                                        <div class="media-object-section mt-4">
+                                                            <img src="/assets/app-icons/analytics.png" width="50px">
+                                                        </div>
+                                                    </div>
+                                                    <div class="column">
+                                                        <div class="media-object-section main-section">
+                                                            <h4 class="title is-5" style="color: black;">Analytics</h4>
+                                                            <p>Get a better understanding of <br> where your traffic is
+                                                                coming from.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column">
+                                                <div class="columns hover-grey">
+                                                    <div class="column is-narrow">
+                                                        <div class="media-object-section mt-4">
+                                                            <img src="/assets/app-icons/Engagement.png" width="50px">
+                                                        </div>
+                                                    </div>
+                                                    <div class="column">
+                                                        <div class="media-object-section main-section">
+                                                            <h4 class="title is-5" style="color: black;">Engagement</h4>
+                                                            <p>Speak directly to your customers in a more
+                                                                meaningful way. </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="columns">
+                                            <div class="column">
+                                                <div class="columns hover-grey">
+                                                    <div class="column is-narrow">
+                                                        <div class="media-object-section mt-4">
+                                                            <img src="/assets/app-icons/security.png" width="50px">
+                                                        </div>
+                                                    </div>
+                                                    <div class="column">
+                                                        <div class="media-object-section main-section">
+                                                            <h4 class="title is-5" style="color: black;">Security</h4>
+                                                            <p>Your customers data will be safe and secure.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column">
+                                                <div class="columns hover-grey">
+                                                    <div class="column is-narrow">
+                                                        <div class="media-object-section mt-4">
+                                                            <img src="/assets/app-icons/integrations.png" width=" 50px">
+                                                        </div>
+                                                    </div>
+                                                    <div class="column">
+                                                        <div class="media-object-section main-section">
+                                                            <h4 class="title is-5" style="color: black;">Integrations
+                                                            </h4>
+                                                            <p>Connect with third-party tools that you're already
+                                                                using.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <li><a href="#" class="nav-link font-color-black hero-nav-link mt-2">Features</a></li>
+                                <li><a href="#" class="nav-link font-color-black hero-nav-link mt-2">Marketplace</a>
+                                </li>
+                                <li><a href="#" class="nav-link font-color-black hero-nav-link mt-2">Company</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="navbar-end mt-2">
+                    <a href="#" class="font-color-black text-decortation-none mt-4 m-3">Sign in</a>
+                    <div class="mt-3">
+                        <button class="button is-normal hero-button ">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <p class="small mt-5 mb-5">Hover - Full width flyout menu</p>
+        <section class="box mt-4 mb-3">
+            <nav class="navbar">
+                <div>
+                    <div class="navbar-start">
+                        <div class="flyout-dropdown-menu mt-1">
+                            <button class="flyout-dropbtn-menu" style="margin-top:14px">Products
+                            </button>
+                            <div class="flyout-dropdown-content-menu">
+                                <div class="flyout-row-menu">
+                                    <div class="columns">
+                                        <div class="column">
+                                            <div class="columns hover-grey">
+                                                <div class="column is-narrow">
+                                                    <div class="media-object-section mt-4">
+                                                        <img src="/assets/app-icons/analytics.png" width="50px">
+                                                    </div>
+                                                </div>
+                                                <div class="column">
+                                                    <div class="media-object-section main-section">
+                                                        <h4 class="title is-5" style="color: black;">Analytics</h4>
+                                                        <p>Get a better understanding of <br> where your traffic is
+                                                            coming from.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="column">
+                                            <div class="columns hover-grey">
+                                                <div class="column is-narrow">
+                                                    <div class="media-object-section mt-4">
+                                                        <img src="/assets/app-icons/Engagement.png" width="50px">
+                                                    </div>
+                                                </div>
+                                                <div class="column">
+                                                    <div class="media-object-section main-section">
+                                                        <h4 class="title is-5" style="color: black;">Engagement</h4>
+                                                        <p>Speak directly to your customers in a more
+                                                            meaningful way. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="column">
+                                            <div class="columns hover-grey">
+                                                <div class="column is-narrow">
+                                                    <div class="media-object-section mt-4">
+                                                        <img src="/assets/app-icons/security.png" width="50px">
+                                                    </div>
+                                                </div>
+                                                <div class="column">
+                                                    <div class="media-object-section main-section">
+                                                        <h4 class="title is-5" style="color: black;">Security</h4>
+                                                        <p>Your customers data will be safe and secure.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="column">
+                                            <div class="columns hover-grey">
+                                                <div class="column is-narrow">
+                                                    <div class="media-object-section mt-4">
+                                                        <img src="/assets/app-icons/integrations.png" width=" 50px">
+                                                    </div>
+                                                </div>
+                                                <div class="column">
+                                                    <div class="media-object-section main-section">
+                                                        <h4 class="title is-5" style="color: black;">Integrations
+                                                        </h4>
+                                                        <p>Connect with third-party tools that you're already
+                                                            using.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flyout-row-menu">
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="nav">
+                            <ul class="nav">
+                                <li><a href="#" class="nav-link font-color-black hero-nav-link mt-2">Features</a>
+                                </li>
+                                <li><a href="#" class="nav-link font-color-black hero-nav-link mt-2">Marketplace</a>
+                                </li>
+                                <li><a href="#" class="nav-link font-color-black hero-nav-link mt-2">Company</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </div>
+    <script src="/slushii.js"></script>
+</body>
+
+</html>
